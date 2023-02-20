@@ -28,3 +28,7 @@ main {
   min-height: 60vh;
   background-position: center;
 }
+
+iframe{
+  line-height: 0;
+}

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./styles/style.css" />
   <link rel="stylesheet" href="./styles/bootstrap.css" />
   <link rel="stylesheet" href="./styles/bootstrap-icons.css" />
+  <link rel="icon" href="./assets/img/favicon.ico" >
 </head>
 
 <body>
@@ -32,8 +33,8 @@
 
   <main>
     <div class="container py-3 col-lg-8 col-md-10">
-      <div class="border rounded-3 shadow-lg p-3 mb-5 bg-body rounded my-3 text-center justify-content-center">
-        <h2 class="display-3">¿ Quienes Somos ?</h2>
+      <div class="border rounded-3 shadow-lg p-1 p-sm-3 mb-5 bg-body rounded my-3 text-center justify-content-center">
+        <h2 class="display-3 fw-normal">Quienes Somos</h2>
         <p class="mx-3 my-4 fs-5">
           Ofrecemos envíos con Via Cargo, Buspack, MD Cargas y Crucero Express
           a toda Argentina. Contamos también con la receptoria de paquetes
@@ -41,8 +42,8 @@
           alianzas estrategicas recibimos paquetería de todas partes de
           Argentina y contamos con un deposito de 20m² para su resguardo.
         </p>
-        <div class="fs-3 fst-italic d-flex justify-content-center align-items-center">
-          <h5 class="m-0">ENCOMIENDAS A TODO EL PAÍS</h5>
+        <div class="fs-5 fs-md-1 fst-italic fw-bold d-flex justify-content-center align-items-center">
+          <p class="m-0">ENCOMIENDAS A TODO EL PAÍS</p>
           <div class="d-flex">
             <div style="transform: rotate(180deg)">
               <i class="bi bi-wind me-2 ms-1 "></i>
@@ -57,40 +58,46 @@
 
     <h2 class="text-center fw-bolder h1 pb-3 mb-4">NUESTRAS ALIANZAS</h2>
     <section class="pb-5 d-flex gap-3 flex-column flex-md-row justify-content-md-center flex-wrap">
-      <img src="./assets/img/viaCargoLogo.jpg" class="img-default img-fluid mx-2" alt="viaCargo"/>
-      <img src="./assets/img/mdCargas.png" class="img-default img-fluid mx-2" alt="mdCargas"/>
-      <img src="./assets/img/cArgentino.png" class="img-default img-fluid mx-2" alt="cArgentino"/>
-      <img src="./assets/img/buspackWhite.png" class="img-default img-fluid mx-2" alt="busPack"/>
-      <img src="./assets/img/paqar.png" class="img-default img-fluid mx-2" alt="paqar"/>
+      <img src="./assets/img/viaCargoLogo.jpg" class="img-default img-fluid mx-2" alt="viaCargo" />
+      <img src="./assets/img/mdCargas.png" class="img-default img-fluid mx-2" alt="mdCargas" />
+      <img src="./assets/img/cArgentino.png" class="img-default img-fluid mx-2" alt="cArgentino" />
+      <img src="./assets/img/buspackWhite.png" class="img-default img-fluid mx-2" alt="busPack" />
+      <img src="./assets/img/paqar.png" class="img-default img-fluid mx-2" alt="paqar" />
     </section>
 
-    <footer class="bg-dark">
+    <div style="line-height: 0;">
       <iframe class="w-100"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.7889901216276!2d-58.7047972842386!3d-34.533573661297936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbda4bd67ea31%3A0x4fc2d8c925f97991!2sEncomiendas%20San%20Miguel!5e0!3m2!1ses-419!2sar!4v1676866033657!5m2!1ses-419!2sar"
         loading="lazy" style="height: 50vh">
       </iframe>
+    </div>
 
-      <div class="d-flex text-light w-100 justify-content-between justify-content-md-around gap-1">
-        <div class="px-3 px-md-0 text-center d-flex align-items-center align-items-md-end">
-          <div class="d-md-flex">
-            <i class="bi bi-geo-alt me-2 text-warning"></i>
-            <p>Av. Dr. Ricardo Balbín 139, San Miguel</p>
-          </div>
-        </div>
-        <div class="">
-          <div class="position-relative fs-1 | text-center |">
+    <footer class="bg-dark">
+
+      <div
+        class="d-flex flex-column flex-sm-row text-light w-100 align-items-center justify-content-around gap-1 gap-sm-3 p-sm-2">
+        <div class="order-sm-2">
+          <div class="d-flex justify-content-center gap-5 gap-sm-3 fs-2">
             <a class="bi-instagram text-danger" href="https://www.instagram.com/encomiendas_sm/" target="_blank"></a>
             <a class="bi-whatsapp text-success" href="https://api.whatsapp.com/send?phone=5491173634486"
               target="_blank"></a>
           </div>
-          <p class="text-center text-light d-none d-md-block fw-light">
+          <p class="text-center text-light d-none d-md-block m-0" style="font-size: 0.9rem;">
             &copy;2023 Todos los derechos reservados
           </p>
         </div>
-        <div class="px-3 px-md-0 text-center d-flex align-items-center align-items-md-end">
-          <div class="d-md-flex">
+        <div class="px-3 px-md-0 text-center d-flex align-items-center align-items-md-end order-sm-1">
+          <div class="d-flex flex-sm-column align-items-center">
+            <i class="bi bi-geo-alt me-2 text-warning"></i>
+            <p class="m-0 d-sm-none" style="font-size: 0.9rem;">Av. Dr. Ricardo Balbín 139, San Miguel</p>
+            <p class="m-0 d-none d-sm-inline fs-6">Av. Dr. Ricardo Balbín 139, San Miguel</p>
+          </div>
+        </div>
+        <div class="px-3 px-md-0 text-center d-flex align-items-center align-items-md-end order-sm-3">
+          <div class="d-flex flex-sm-column align-items-center" style="font-size: 0.9rem;">
             <i class="bi bi-clock me-2 text-warning"></i>
-            <p>Lunes a viernes 9 a 19 Sabados 9 a 14</p>
+            <p class="m-0 d-sm-none" style="font-size: 0.9rem;">Lunes a viernes 9 a 19 Sabados 9 a 14</p>
+            <p class="m-0 d-none d-sm-inline fs-6">Lunes a viernes 9 a 19 Sabados 9 a 14</p>
           </div>
         </div>
       </div>

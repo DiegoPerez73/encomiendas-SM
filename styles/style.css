@@ -20,6 +20,10 @@ main {
   background-position: center;
 }
 
+#quienesSomos{
+  background-color: #DDE8F1 !important;
+}
+
 iframe{
   line-height: 0;
 }
@@ -31,7 +35,7 @@ iframe{
 }
 
 .white-logo{
-  color: #DDE8F1;
+  color: #DDE8F1 !important;
 }
 
 .lightBlue-logo{

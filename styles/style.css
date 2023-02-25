@@ -20,10 +20,6 @@ main {
   background-position: center;
 }
 
-#quienesSomos{
-  background-color: #DDE8F1 !important;
-}
-
 iframe{
   line-height: 0;
 }
@@ -34,20 +30,13 @@ iframe{
   right: 20px;
 }
 
-.white-logo{
-  color: #DDE8F1 !important;
-}
-
-.lightBlue-logo{
-  background-color: #008ABD !important;
-}
-
-.blue-logo{
-  background-color: #0C4580 !important;
+#btn-header{
+  color: #DDE8F1;
+  background-color: #008ABD;
 }
 
 #btn-header:hover{
-  background-color: #0C4580 !important;
+  background-color: #0C4580;
 }
 
 /* 

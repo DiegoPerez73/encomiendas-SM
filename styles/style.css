@@ -5,11 +5,11 @@ a {
 }
 
 main {
-  background-color: #94DDDE;
+  background-color: #98CCDC;
 }
 
 .shadowText {
-  text-shadow: 0 0 1rem #292828;
+  text-shadow: 0 0 0.3rem #292828;
 }
 
 .shadowTextSmall {
@@ -25,7 +25,6 @@ main {
 
 .img-bg {
   background-image: url(../assets/img/deposito.jpg);
-  min-height: 60vh;
   background-position: center;
 }
 
@@ -33,6 +32,41 @@ iframe{
   line-height: 0;
 }
 
-/* .img-logo{
-  width:
-} */
+.btn-ws{
+  position: fixed;
+  bottom:60px;
+  right: 20px;
+}
+
+.white-logo{
+  color: #DDE8F1;
+}
+
+.white-logo-bg{
+  background-color: #DDE8F1 !important;
+}
+
+.lighterBlue-logo{
+  color: #98CCDC;
+}
+
+.lightBlue-logo{
+  background-color: #008ABD !important;
+}
+
+.blue-logo{
+  background-color: #0C4580 !important;
+}
+
+.darkBlue-logo{
+  color: #1C2443 !important;
+}
+
+#btn-fixed:hover{
+  background-color: green !important;
+}
+
+#btn-header:hover{
+  background-color: #0C4580 !important;
+}
+

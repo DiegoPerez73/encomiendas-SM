@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0 max-scale=3" />
   <title>Encomiendas San Miguel</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
   <!-- css link -->
   <link rel="stylesheet" href="./styles/style.css" />
   <link rel="stylesheet" href="./styles/bootstrap.css" />
@@ -41,21 +45,24 @@
 
 
   <header>
-    <div class="bg-image img-bg">
+    <div class="bg-image img-bg" style=" height: auto">
+      <div class="mask">
       <div class="text-center py-5 px-2 px-sm-0 pe-sm-5">
 
         <div class="d-block d-sm-flex justify-content-center align-items-center">
-          <img class="w-25" src="./assets/img/logo.png" alt="logoEncomiendas">
-          <h1 class="mb-2 display-2 fw-bold white-logo shadowText">ENCOMIENDAS <br> SAN MIGUEL</h1>
+          <div class="p-4 p-md-5">
+            <img style="max-width:12rem;" src="./assets/img/logo.png" alt="logoEncomiendas">
+          </div>
+          <h1 class="mb-2 pt-md-4 display-2 white-logo bebas">ENCOMIENDAS <br> SAN MIGUEL</h1>
         </div>
 
     <!-- Only render in sm/md screens  -->
         <a id="btn-header"
-          class="d-md-none mt-5 btn lightBlue-logo btn-lg text-white fw-bold shadow rounded-4 py-2 px-4"
+          class="d-md-none mt-4 btn lightBlue-logo text-white rounded-5 py-2 px-3"
           href="https://api.whatsapp.com/send?phone=5491173634486" role="button" target="_blank">
-          <span class="bi-whatsapp me-1"></span> Consultanos!</a>
+          <span class="bi-whatsapp me-1"></span> Consultanos !</a>
     <!--............................-->
-
+        </div>
       </div>
     </div>
   </header>

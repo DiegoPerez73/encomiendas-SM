@@ -4,16 +4,13 @@ a {
   padding: 0;
 }
 
+.bebas{
+  font-family: 'Bebas Neue';
+  
+}
+
 main {
   background-color: #98CCDC;
-}
-
-.shadowText {
-  text-shadow: 0 0 0.3rem #292828;
-}
-
-.shadowTextSmall {
-  text-shadow: 0 0 0.4rem #292828;
 }
 
 .img-default {
@@ -24,7 +21,7 @@ main {
 }
 
 .img-bg {
-  background-image: url(../assets/img/deposito.jpg);
+  background-image: url(../assets/img/deposito75.jpg);
   background-position: center;
 }
 

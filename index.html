@@ -7,10 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0 max-scale=3" />
   <title>Encomiendas San Miguel</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
   <!-- css link -->
   <link rel="stylesheet" href="./styles/style.css" />
   <link rel="stylesheet" href="./styles/bootstrap.css" />
@@ -19,58 +15,33 @@
 </head>
 
 <body>
-  <!-- 
   <header>
-    <div class="p-5 text-center bg-image img-bg">
-      <div class="mask">
-        <div class="d-flex justify-content-center align-items-center h-100">
-          <div class="text-light">
-            <h1 class="mb-2 display-2 fw-bold shadowText">ENCOMIENDAS <br> SAN MIGUEL</h1>
-            <a class="mt-5 btn btn-dark btn-lg text-white fw-bold shadow rounded-4 py-2 px-4"
-              href="https://api.whatsapp.com/send?phone=5491173634486" role="button" target="_blank"><span
-                class="bi-whatsapp me-1"></span> 11 7363 4486</a>
-            <h3 class="mt-3 fs-2 shadowTextSmall">Haga su consulta aquí</h3>
-          </div>
+    <div class="bg-image img-bg">
+      <div class="text-center pt-5 pb-5 px-2 px-sm-0 pe-sm-5">
+        <div class="d-block d-sm-flex justify-content-center align-items-center py-4">
+          <img style="max-width: 12rem; min-width: 6rem;" class="w-25" src="./assets/img/logo.png"
+            alt="logoEncomiendas">
+          <h1 class="mb-2 ps-4 pt-md-2 display-5 fw-bold white-logo">ENCOMIENDAS <br> SAN MIGUEL</h1>
         </div>
-      </div>
-    </div>
-  </header>
- -->
-
-<!-- Only render in lg/xl screens -->
-  <button id="btn-fixed" class="btn blue-logo white-logo rounded-5 position-fixed btn-ws d-none d-md-block "
-    href="https://api.whatsapp.com/send?phone=5491173634486" role="button" target="_blank">
-    <a class="bi-whatsapp fs-4 white-logo"></a></button>
-<!--............................-->
-
-
-  <header>
-    <div class="bg-image img-bg" style=" height: auto">
-      <div class="mask">
-      <div class="text-center py-5 px-2 px-sm-0 pe-sm-5">
-
-        <div class="d-block d-sm-flex justify-content-center align-items-center">
-          <div class="p-4 p-md-5">
-            <img style="max-width:12rem;" src="./assets/img/logo.png" alt="logoEncomiendas">
-          </div>
-          <h1 class="mb-2 pt-md-4 display-2 white-logo bebas">ENCOMIENDAS <br> SAN MIGUEL</h1>
-        </div>
-
-    <!-- Only render in sm/md screens  -->
-        <a id="btn-header"
-          class="d-md-none mt-4 btn lightBlue-logo text-white rounded-5 py-2 px-3"
+        <!-- Only render in sm/md screens  -->
+        <a id="btn-header" class="d-md-none mt-4 btn lightBlue-logo text-white rounded-5 py-2 px-3"
           href="https://api.whatsapp.com/send?phone=5491173634486" role="button" target="_blank">
           <span class="bi-whatsapp me-1"></span> Consultanos !</a>
-    <!--............................-->
-        </div>
+        <!--............................-->
       </div>
     </div>
   </header>
 
+  <!-- Only render in lg/xl screens -->
+  <a id="btn-fixed" class="btn blue-logo white-logo rounded-5 position-fixed btn-ws d-none d-md-block "
+    href="https://api.whatsapp.com/send?phone=5491173634486" role="button" target="_blank">
+    <span class="bi-whatsapp fs-4 white-logo"></span></a>
+  <!--............................-->
+
   <main>
-    <div class="container py-3 col-lg-8 col-md-10">
+    <div class="container pt-5 col-lg-8 col-md-10">
       <div class="border rounded-3 shadow-lg p-1 p-sm-3 mb-5 bg-body rounded my-3 text-center justify-content-center">
-        <h2 class="display-3 fw-normal">Quiénes Somos</h2>
+        <h2 class="h1 fw-normal fs-2">Quiénes Somos</h2>
         <p class="mx-3 my-4 fs-5">
           Ofrecemos envíos con Vía Cargo, Buspack y MD Cargas
           a todo el país. Contamos también con la receptoría de paquetes
@@ -124,16 +95,16 @@
       </div>
       <div class="px-3 px-md-0 text-center d-flex align-items-center align-items-md-end order-sm-1">
         <div class="d-flex flex-sm-column align-items-center">
-          <i class="bi bi-geo-alt me-2 text-warning"></i>
+          <i class="bi bi-geo-alt me-2 text-warning fs-5"></i>
           <p class="m-0 d-sm-none" style="font-size: 0.9rem;">Av. Dr. Ricardo Balbín 139, San Miguel</p>
           <p class="m-0 d-none d-sm-inline fs-6">Av. Dr. Ricardo Balbín 139, San Miguel</p>
         </div>
       </div>
       <div class="px-3 px-md-0 text-center d-flex align-items-center align-items-md-end order-sm-3">
         <div class="d-flex flex-sm-column align-items-center" style="font-size: 0.9rem;">
-          <i class="bi bi-clock me-2 text-warning"></i>
-          <p class="m-0 d-sm-none" style="font-size: 0.9rem;">Lunes a viernes 9 a 19 Sábados 9 a 14</p>
-          <p class="m-0 d-none d-sm-inline fs-6">Lunes a viernes 9 a 19 Sábados 9 a 14</p>
+          <i class="bi bi-clock me-2 text-warning fs-6"></i>
+          <p class="m-0 d-sm-none" style="font-size: 0.9rem;">Lunes a viernes 9 a 19hs. Sábados 9 a 14hs</p>
+          <p class="m-0 d-none d-sm-inline fs-6">Lunes a viernes 9 a 19hs. Sábados 9 a 14hs</p>
         </div>
       </div>
     </div>

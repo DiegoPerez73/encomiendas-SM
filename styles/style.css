@@ -4,11 +4,6 @@ a {
   padding: 0;
 }
 
-.bebas{
-  font-family: 'Bebas Neue';
-  
-}
-
 main {
   background-color: #98CCDC;
 }
@@ -39,24 +34,12 @@ iframe{
   color: #DDE8F1;
 }
 
-.white-logo-bg{
-  background-color: #DDE8F1 !important;
-}
-
-.lighterBlue-logo{
-  color: #98CCDC;
-}
-
 .lightBlue-logo{
   background-color: #008ABD !important;
 }
 
 .blue-logo{
   background-color: #0C4580 !important;
-}
-
-.darkBlue-logo{
-  color: #1C2443 !important;
 }
 
 #btn-fixed:hover{
@@ -67,3 +50,11 @@ iframe{
   background-color: #0C4580 !important;
 }
 
+/* 
+Colors: 
+#DDE8F1
+#98CCDC
+#008ABD
+#0C4580
+#1C2443
+ */

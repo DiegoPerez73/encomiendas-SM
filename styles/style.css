@@ -5,15 +5,7 @@ a {
 }
 
 main {
-  background-color: #94DDDE;
-}
-
-.shadowText {
-  text-shadow: 0 0 1rem #292828;
-}
-
-.shadowTextSmall {
-  text-shadow: 0 0 0.4rem #292828;
+  background-color: #98CCDC;
 }
 
 .img-default {
@@ -24,11 +16,45 @@ main {
 }
 
 .img-bg {
-  background-image: url(../assets/img/deposito.jpg);
-  min-height: 60vh;
+  background-image: url(../assets/img/deposito75.jpg);
   background-position: center;
+}
+
+#quienesSomos{
+  background-color: #DDE8F1 !important;
 }
 
 iframe{
   line-height: 0;
 }
+
+.btn-ws{
+  position: fixed;
+  bottom:60px;
+  right: 20px;
+}
+
+.white-logo{
+  color: #DDE8F1 !important;
+}
+
+.lightBlue-logo{
+  background-color: #008ABD !important;
+}
+
+.blue-logo{
+  background-color: #0C4580 !important;
+}
+
+#btn-header:hover{
+  background-color: #0C4580 !important;
+}
+
+/* 
+Colors: 
+#DDE8F1
+#98CCDC
+#008ABD
+#0C4580
+#1C2443
+ */
